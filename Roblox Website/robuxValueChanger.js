@@ -1,5 +1,5 @@
 // You wanna have some fun and make your robux increase or decrease really fast? Well then this code is for you!! :D
-// First, go to the roblox website http://roblox.com and open developer tools
+// First, go to the roblox website https://roblox.com and open developer tools
 // Then, navagate to the console tab
 // Copy and paste the code below
 // Then use the changeRobux() function. -> changeRobux(initialValue, finalValue, speed_in_ms, increment)
