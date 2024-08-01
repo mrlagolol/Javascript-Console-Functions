@@ -7,8 +7,8 @@
 // PARAMS:
 //   initialValue -> the value you wanna start with
 //   finalValue -> the value you wanna end with
-//   the speed in milli seconds
-//   the how much you wanna increment
+//   speed_in_ms -> the speed in ms (1sec = 1000ms)
+//   increment -> how much you wanna increment (defaut is 1)
 
 const robuxDelay = (ms) => new Promise(resolve => setTimeout(resolve, ms)); // creates a delay function
 
