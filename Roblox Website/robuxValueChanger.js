@@ -55,7 +55,7 @@ const changeRobux = async (initialValue, finalValue, speed_in_ms, increment = 1)
     if (finalValue > initialValue) {
         for (let i = initialValue; i <= finalValue; i += increment) {
             await robuxDelay(speed_in_ms); // pauses for set amount of time
-            document.getElementById("nav-robux-amount").innerHTML = robuxValue(i) // changes the robux value to the variable i
+            document.getElementById("nav-robux-amount").innerHTML = robuxValue(i) // gets the robux element from the page and changes it to the variable i
         }
     }
 
@@ -63,7 +63,7 @@ const changeRobux = async (initialValue, finalValue, speed_in_ms, increment = 1)
     else if (finalValue < initialValue) {
         for (let i = initialValue; i >= finalValue; i--) {
             await robuxDelay(speed_in_ms); // pauses for set amount of time
-            document.getElementById("nav-robux-amount").innerHTML = robuxValue(i) // changes the robux value to the variable i
+            document.getElementById("nav-robux-amount").innerHTML = robuxValue(i) // gets the robux element from the page and changes it to the variable i
         }
     }
 
